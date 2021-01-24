@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="block">
+        <div class="header container">
+            <div class="phone-mail">
+                <div class="phone">
+                     <a href="tel:0552936565">&#128222;  0552936565</a>
+                </div>
+                <div class="phone">
+                     <a href="mailto:azamatimanbekov17@gmail.com">&#9993; azamatimanbekov17@gmail.com</a>
+                </div>
+            </div>
+            <div class="insta-face">
+                <a href="https://www.instagram.com/"><img src="img/instagram.png" alt=""></a>
+                <a href="https://www.facebook.com/"><img src="img/facebook.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="block-one">
+        <div class="header-one container">
+            <div class="my-icon">               
+                <a href=""><img src="img/aza.jpg" alt="">
+                <h2>Azamat Imanbekov</h2></a>               
+            </div>
+            <div class="header-text">
+                <ul>
+                    <li><a href="#about me">ABOUT ME</a></li>
+                    <li><a href="#gallary">GALLARY</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="block-two">
+        <div class="block-contant container">
+            <h1 class="motivation-text">today a reader <br> tomorrow a leader</h1>
+            <h1 class="programmers-speech">“Any fool can write code that a computer can understand. <br> 
+                Good programmers write code that humans can <br> understand.”</h1>
+                
+        </div>
+    </div>
+    <div class="block-three">
+        <div class="block-content container">
+            <h3><a name="about me"> </a> about me</h3>
+            <div class="about-me">
+                <img src="img/icon.png" alt="">
+                <div style="margin-left: 50px; margin-top: 50px;">
+                    <div class="myself-text">
+                        <h4>Myself</h4>
+                        <p>My love for the program began in early childhood. 
+                            I lived in a village and spent almost all my free  time in a computer. 
+                            Even then I realized  that programming inspires me,  and I can only create  when there is a computer nearby. 
+                            I feel uncomfortable with another profession,  so I didn't have to wait long to choose a profession. 
+                            Working with a computer and designing codes is  my favorite pastime, 
+                            which pleases not only me,  but also my dear clients.</p>
+                    </div>
+                    <div class="myself-text">
+                        <h4>Student life</h4>
+                        <p>We enter the university not because of a craving for knowledge, but simply because everyone does it. Well, nobody really wants to join the army either. There are more lucky individuals who purposefully enter promising universities for promising specialties on the advice of their parents, but again this is a question of luck, connections and money.
+                            I did that too. I studied at the university for two years. After two years, I dropped out of university because I didn't like classes.
+                            Then I started looking for a good course and met Peaksoft and I became a student in this company</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block-four">
+        <div class="block-content container">
+            <h3><a name="gallary"> </a> GALLARY</h3>
+            <div class="slider">
+                <div class="image-box">
+                    <img src="img/423.jpg" alt="" id="slider-img">
+                </div>
+                <a class="prev" onclick="prev()">&#10094;</a> 
+                <a class="next" onclick="next()">&#10095;</a>
+                
+            </div>
+        </div>
+    </div>
+    <div class="block-five">
+        <div class="block-content container">
+            <h3><a name="projects"> </a> PROJECTS</h3>
+            <div class="projects">              
+                <div class="projects-block">
+                    <a href="file:///D:/HTML%20lesson/forms/landing/landing.html">
+                        <h3>First <br> Project</h3>
+                        <img src="img/1project.png" alt="">
+                        <h4>HTML/CSS/Javascript</h4>
+                    </a>
+                </div>
+            
+                <div class="projects-block">
+                    <a href="file:///D:/HTML%20lesson/practice1/practice1.html">
+                        <h3>Second <br> Project</h3>
+                        <img src="img/2project.png" alt="">
+                        <h4>HTML/CSS/Javascript</h4>
+                    </a>
+                </div>
+                <div class="projects-block">
+                    <a href="file:///D:/HTML%20lesson/practice2/practice2.html">
+                        <h3>Third <br> Project</h3>
+                        <img src="img/3project.png" alt="">
+                        <h4>HTML/CSS/Javascript</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block-six">       
+        <div class="block-content container">
+            <h3><a name="contact"> </a> CONTACT</h3>
+            <div class="contact-page">
+                    <div class="input-name">
+                        <input type="text" placeholder="First Name" id="fname">
+                        <input type="text" placeholder="Last Name" id="lname">
+                    </div>
+                    <div class="email-input">
+                        <input type="email" placeholder="Email Address" id="email">
+                    </div>
+                    <textarea name="" id="textArea" cols="30" rows="5" placeholder="Your Massage"></textarea> <br>
+                    <input type="button" value="submit" class="submit" onclick="signUp()">
+            </div>
+        </div>
+    </div>
+    <script src="card.js"></script>
+</body>
+</html>
